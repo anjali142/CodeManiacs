@@ -12,7 +12,7 @@ var prob = new mongoose.Schema({
     sampleInput: String,
     sampleOutput: String,
     explanation: String,
-    difficulty: Number,
+    difficulty: String,
     problemSetter: String,
     timeLimit: Double,
     memoryLimit: Number,
